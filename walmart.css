@@ -190,4 +190,36 @@ body{
       color: darkblue;
       text-align: center;
     }
-    
+    .card5{
+      border: 2px solid rgb(214, 208, 208);
+      height: 380px;
+    }
+    .button a{
+      border-radius: 10px;
+      text-decoration: none;
+      color: black;
+    }
+    .col-md-3{
+      flex: 50%;
+     padding: 10px;
+     height: 300px;
+     text-align: center;
+     padding-left: 50px;
+     padding-right: 10px;
+     padding-top: 20px;
+     
+    }
+    .card6{
+      border: 2px solid rgb(168, 162, 162);
+      height: 500px;
+      width: 600px;
+    }
+    .col-md-6{
+      flex: 50%;
+     padding: 10px;
+     height: 300px;
+     text-align: center;
+     padding-left: 50px;
+     padding-right: 10px;
+     padding-top: 20px;
+    }

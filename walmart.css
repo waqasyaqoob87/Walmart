@@ -74,7 +74,7 @@ body{
    .slider img{
     margin-top: 30px;
     margin-left: 55px;
-    width: 1230px;
+    width: 1380px;
     border-radius: 15px;
 
    }
@@ -196,9 +196,10 @@ body{
     }
     .card5{
       border: 2px solid rgb(214, 208, 208);
-      height: 380px;
+      height: 400px;
       width: 370px;
-      margin-right: 35px;
+      margin-right: 80px;
+      border: radius 10px;
     }
     .card5 h2{
       text-align: left;
@@ -207,11 +208,15 @@ body{
     .card5 p{
       text-align: left;
       padding-left: 10px;
+      margin-left: 65px;
     }
     .button{
       text-align: left;
       align-items: left;
       padding-left: 10px;
+    }
+    .button p{
+      text-align: left;
     }
     .button > button{
       border: 2px solid rgb(175, 172, 172);
@@ -252,15 +257,14 @@ body{
     .card6{
       border: 2px solid rgb(168, 162, 162);
       height: 500px;
-      width: 520px;
+      width: 590px;
+      margin-left: 90px;
+      border-radius: 10px;
     }
     .column66{
-      flex: 50%;
-     padding: 10px;
      height: 300px;
      text-align: center;
-     padding-left: 50px;
-     padding-right: 10px;
+     padding-right: 0px;
      padding-top: 20px;
      margin-bottom: 180px;
     }

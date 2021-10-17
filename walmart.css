@@ -1,7 +1,6 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .head {
     display: flex;
@@ -11,33 +10,6 @@ body{
     line-height: 20px;
     align-items: center;
     justify-content: space-between; 
-  }
-  .button11 a{
-    border: 2px solid rgb(55, 0, 255);
-    width: 60px;
-    border-radius: 20px;
-   align-items: center;
-    text-align: center;
-  }
-  .sidebar{
-    overflow-y: scroll;
-    height: 400px;
-  }
-  .sidebar h3{
-    font-size: 16px;
-    text-align: center;
-  }
-  .sidebar a{
-    font-size: 12px;
-    text-align: left;
-  }
-  .settext h3{
-    font-size: 16px;
-    text-align: center;
-  }
-  .settext  a{
-    font-size: 12px;
-    text-align: left;
   }
    input{
        
@@ -102,7 +74,6 @@ body{
    .slider img{
     margin-top: 30px;
     margin-left: 55px;
-    width: 1380px;
     border-radius: 15px;
 
    }
@@ -207,7 +178,7 @@ body{
     }
     
     .column22{
-      margin-right: 25px;
+      margin-right: 21px;
     }
     .checkedstars{
       color: black;
@@ -225,7 +196,7 @@ body{
     .card5{
       border: 2px solid rgb(214, 208, 208);
       height: 400px;
-      width: 370px;
+      width: 340px;
       margin-right: 80px;
       border: radius 10px;
     }
@@ -236,7 +207,6 @@ body{
     .card5 p{
       text-align: left;
       padding-left: 10px;
-      
     }
     .button{
       text-align: left;
@@ -285,7 +255,7 @@ body{
     .card6{
       border: 2px solid rgb(168, 162, 162);
       height: 500px;
-      width: 590px;
+      width: 520px;
       margin-left: 90px;
       border-radius: 10px;
     }

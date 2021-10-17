@@ -29,6 +29,33 @@ body{
         line-height: 3;
        
       }
+      .button11 a{
+        border: 2px solid rgb(55, 0, 255);
+        width: 60px;
+        border-radius: 20px;
+       align-items: center;
+        text-align: center;
+      }
+      .sidebar{
+        overflow-y: scroll;
+        height: 400px;
+      }
+      .sidebar h3{
+        font-size: 16px;
+        text-align: center;
+      }
+      .sidebar a{
+        font-size: 12px;
+        text-align: left;
+      }
+      .settext h3{
+        font-size: 16px;
+        text-align: center;
+      }
+      .settext  a{
+        font-size: 12px;
+        text-align: left;
+      }
       .clickablelinks > div li a{
         color: white;
         list-style: none;

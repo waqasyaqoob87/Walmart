@@ -7,6 +7,9 @@ RUN apt-get update && apt-get install -y git
 # Set the working directory to /usr/share/nginx/html
 WORKDIR /usr/share/nginx/html
 
+# Remove existing contents
+RUN rm -rf ./*
+
 # Clone the Walmart GitHub repository using the Git protocol
 RUN git clone git://github.com/waqasyaqoob87/Walmart.git .
 

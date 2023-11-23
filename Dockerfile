@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y git
 WORKDIR /usr/share/nginx/html
 
 # Clone the GitHub repository with your static website code
-RUN git clone https://github.com/your-username/your-repository.git .
+RUN git clone https://github.com/waqasyaqoob87/Walmart.git .
 
 # Expose port 80 to make the web application accessible
 EXPOSE 80
